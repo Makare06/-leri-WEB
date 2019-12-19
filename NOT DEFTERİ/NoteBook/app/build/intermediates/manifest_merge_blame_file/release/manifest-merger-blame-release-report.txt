@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notebook"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01fdb7b1bbf63122a3620af2e31db437\firebase-database-19.2.0\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01fdb7b1bbf63122a3620af2e31db437\firebase-database-19.2.0\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01fdb7b1bbf63122a3620af2e31db437\firebase-database-19.2.0\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01fdb7b1bbf63122a3620af2e31db437\firebase-database-19.2.0\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:5:5-26:19
+17        android:allowBackup="true"
+17-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\e91594602c73eba9f0c6fb1745d43dba\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:7:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:8:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:9:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:10:9-35
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:11:9-40
+24        <activity android:name="com.example.notebook.MainNotGir" />
+24-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:12:9-57
+24-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:12:19-45
+25        <activity android:name="com.example.notebook.MainNotIcerikDuzenle" />
+25-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:13:9-58
+25-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:13:19-55
+26        <activity
+26-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:14:9-17:59
+27            android:name="com.example.notebook.MainMenu"
+27-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:15:13-37
+28            android:label="@string/title_activity_main_menu"
+28-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:16:13-61
+29            android:theme="@style/AppTheme.NoActionBar" />
+29-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:17:13-56
+30        <activity android:name="com.example.notebook.MainActivity" >
+30-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:18:9-24:20
+30-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:18:19-47
+31            <intent-filter>
+31-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:19:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:20:17-69
+32-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:22:17-77
+34-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.example.notebook.MainKayit" />
+37-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:25:9-47
+37-->C:\Users\PC\Desktop\NoteBook-20191217T170143Z-001\NoteBook\app\src\main\AndroidManifest.xml:25:19-44
+38        <activity
+38-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+39            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+39-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+40            android:excludeFromRecents="true"
+40-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+41            android:exported="true"
+41-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+42            android:launchMode="singleTask"
+42-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+43            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+43-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+44            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+44-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+45
+46        <service
+46-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
+47            android:name="com.google.firebase.components.ComponentDiscoveryService"
+47-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+48            android:directBootAware="true"
+48-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ab1f48ba0485b1214da6e81d44dce181\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+49            android:exported="false" >
+49-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+50            <meta-data
+50-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+51                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+51-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\519bb249cc80507951a4e4dc8a3057bc\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-database:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01fdb7b1bbf63122a3620af2e31db437\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+54                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+54-->[com.google.firebase:firebase-database:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01fdb7b1bbf63122a3620af2e31db437\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-database:19.2.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\01fdb7b1bbf63122a3620af2e31db437\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+56        </service>
+57
+58        <activity
+58-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a7dfbb78c47d6fb61939251aeae30df0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+59            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+59-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a7dfbb78c47d6fb61939251aeae30df0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+60            android:exported="false"
+60-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a7dfbb78c47d6fb61939251aeae30df0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+61            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\a7dfbb78c47d6fb61939251aeae30df0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+62
+63        <provider
+63-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ab1f48ba0485b1214da6e81d44dce181\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+64            android:name="com.google.firebase.provider.FirebaseInitProvider"
+64-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ab1f48ba0485b1214da6e81d44dce181\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+65            android:authorities="com.example.notebook.firebaseinitprovider"
+65-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ab1f48ba0485b1214da6e81d44dce181\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+66            android:exported="false"
+66-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ab1f48ba0485b1214da6e81d44dce181\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+67            android:initOrder="100" />
+67-->[com.google.firebase:firebase-common:19.3.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\ab1f48ba0485b1214da6e81d44dce181\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+68
+69        <meta-data
+69-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\64b2c004e54e31b8b002e69c34be6c4f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+70            android:name="com.google.android.gms.version"
+70-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\64b2c004e54e31b8b002e69c34be6c4f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+71            android:value="@integer/google_play_services_version" />
+71-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\64b2c004e54e31b8b002e69c34be6c4f\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+72
+73        <provider
+73-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+74            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+74-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+75            android:authorities="com.example.notebook.lifecycle-process"
+75-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+76            android:exported="false"
+76-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+77            android:multiprocess="true" />
+77-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PC\.gradle\caches\transforms-2\files-2.1\481e98c58dcdecefc648e2ff1ea7034b\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+78    </application>
+79
+80</manifest>

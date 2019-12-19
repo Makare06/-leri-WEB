@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/arkaplan"
+    tools:context=".MainNotGir">
+
+    <EditText
+        android:id="@+id/not_baslik"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="90sp"
+        android:ems="10"
+        android:hint="Başlık"
+        android:inputType="textPersonName"
+        tools:layout_marginRight="60sp" />
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="299dp"
+        android:layout_height="157dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="50sp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/not_icerik"
+            android:layout_width="match_parent"
+            android:layout_height="167dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Not Yaz..."
+            android:inputType="textMultiLine" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/not_kayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:text="Kayıt" />
+</LinearLayout>

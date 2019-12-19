@@ -1,0 +1,4 @@
+#Tue Dec 17 20:15:53 EET 2019
+base.0=C\:\\Users\\PC\\Desktop\\NoteBook-20191217T170143Z-001\\NoteBook\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
